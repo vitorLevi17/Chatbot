@@ -25,7 +25,7 @@ async function enviarMensagem() {
     input.value = '';
 
     try {
-        const response = await fetch('https://chatbot-six-ruddy.vercel.app/',{
+        const response = await fetch('http://localhost:3000/chat',{
             method:'POST',
             headers:{
                 'Content-Type':'application/json', 
