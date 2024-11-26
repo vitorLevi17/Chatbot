@@ -15,10 +15,10 @@ app.use(cors());
 app.use(express.json());
 app.use('/static', express.static(join(__dirname, 'static'), { extensions: ['css', 'svg', 'js'] }));
 
-iniChat()
+
 
 app.get('/', (req, res) => {
-  
+  iniChat()  
   res.sendFile(join(__dirname, 'templates', 'chat.html'));
 });
 
