@@ -8,7 +8,7 @@ export async function runChat(mensagem) {
   const response = await result.response;
   const content = response.candidates[0].content;
  
-const fc = content.parts[0].functionCall;
+const fc = content.parts[0]?.functionCall;
 const text = content.parts.map(({ text }) => text).join("");
 console.log(text);
 console.log(fc);
