@@ -14,11 +14,9 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 app.use('/static', express.static(join(__dirname, 'static'), { extensions: ['css', 'svg', 'js'] }));
-
-
-
+  
 app.get('/', (req, res) => {
-  iniChat()  
+  iniChat()
   res.sendFile(join(__dirname, 'templates', 'chat.html'));
 });
 
