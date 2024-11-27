@@ -11,9 +11,11 @@ const __dirname = dirname(__filename);
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.use(cors({
+app.use(cors());  
+/*app.use(cors({
   origin: 'https://chatbot-blue-six.vercel.app/',
 }));
+*/
 
 app.use(express.json());
 app.use('/static', express.static(join(__dirname, 'static'), { extensions: ['css', 'svg', 'js'] }));
