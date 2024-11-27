@@ -36,7 +36,7 @@ const tools = [
   }    
 ]
 
-const model = genAI.getGenerativeModel({ model: "gemini-1.0-pro",tools},
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro",tools},
   {apiVersion: "v1beta"}
 );
 
