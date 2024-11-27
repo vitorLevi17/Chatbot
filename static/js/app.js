@@ -27,7 +27,7 @@ async function enviarMensagem() {
     //http://localhost:3000/chat
     //https://chatbot-blue-six.vercel.app/
     try {
-        const response = await fetch('https://chatbot-blue-six.vercel.app/',{
+        const response = await fetch('https://chatbot-blue-six.vercel.app/chat',{
             method:'POST',
             headers:{
                 'Content-Type':'application/json', 
