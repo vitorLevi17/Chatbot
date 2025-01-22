@@ -3,8 +3,8 @@
 
 ## Descrição
 
-Chatbot é um sistema projetado para que o usuario possa conversar e encontrar informações sobre viagens e destinos turisticos. Nosso objetivo é facilitar para o usuario á pesquisa de seus destinos.
-
+Projeto desenvolvido na disciplina de inteligência computacional, em que foi pedido que fosse desenvolvido um Chatbot.
+O chatBot desenvolvido é um sistema projetado para que o usuario possa conversar e encontrar informações sobre viagens e destinos turisticos. Nosso objetivo é facilitar para o usuario á pesquisa de seus destinos.
 
 ## Tecnologias Utilizadas
 
@@ -12,4 +12,5 @@ Chatbot é um sistema projetado para que o usuario possa conversar e encontrar i
 - **Frontend:** HTML, CSS, JavaScript
 - **Outros:** Gemini API, Bootstrap
 
-![image](https://github.com/user-attachments/assets/679bdef8-f8b4-4b73-a005-1e7791716e60)
+![image](https://github.com/user-attachments/assets/09c1f227-fc55-416b-987e-28d3311e6b99)
+
